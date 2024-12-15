@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="7codexa - IT Solutions for Local and International Clients">
+    <title>7codexa - IT Solutions</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            font-family: Arial, sans-serif;
+            position: relative;
+            padding-top: 60px; /* Adjusted to account for the navbar */
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: #0066cc; /* Blue background */
+        }
+
+        .navbar-brand {
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffcc00;
+        }
+
+        /* Light background image */
+        .background-image {
+            background-image: url('assets/logo.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; /* Full viewport height */
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Hero Section Styling */
+        .hero-section {
+            background-color: rgba(0, 102, 204, 0.7); /* Blue overlay with 70% opacity */
+            color: #fff;
+            padding: 120px 0; /* Padding for hero section */
+            text-align: center;
+            position: relative;
+            z-index: 2; /* Ensures it overlays on top of the background image */
+        }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-top: 15px;
+        }
+
+        /* Content Section */
+        .content-section {
+            padding: 60px 0;
+            position: relative;
+            z-index: 3; /* Ensures it is above the hero section */
+        }
+
+        /* Footer Styling */
+        .footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!--<a class="navbar-brand" href="#">
+            <img src="assets/logo.jpg" alt="7codexa Logo" class="img-fluid" style="max-height: 100px;">
+        </a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Light Background Image -->
+    <div class="background-image"></div>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1>Welcome to 7codexa</h1>
+        <p>Your trusted partner for IT solutions</p>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container content-section">
+        <h2 class="text-center">About Our Company</h2>
+        <p>7codexa is an IT startup company committed to providing high-quality solutions to local and international
+            clients. We specialize in custom software development, IT consulting, cloud solutions, and digital
+            transformation. With our skilled team of developers and consultants, we aim to help businesses achieve
+            their full potential through innovative and reliable IT services.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 7codexa. All Rights Reserved.</p>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
